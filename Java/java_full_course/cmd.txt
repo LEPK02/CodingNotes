@@ -1,0 +1,3 @@
+Running Main with multiple classes:
+1. javac -cp . com/beginner/*.java
+2. java -cp . com/beginner/Main || java -cp . com.beginner.Main

@@ -1,0 +1,71 @@
+// Importing partials
+@use "colours"; // imports _colours.css
+
+// Variables
+$primary-color: yellow;
+$primary-color-2: blue;
+
+// Mixins
+@mixin box-shadow($x, $y, $blur, $c) { 
+	-webkit-box-shadow: $x $y $blur $c;
+	-moz-box-shadow: $x $y $blur $c;
+	-ms-box-shadow: $x $y $blur $c;
+	box-shadow: $x $y $blur $c;
+}
+
+// Conditionals
+@mixin border-stroke ($val) {
+    @if $val == light {
+      border: 1px solid black;
+    }
+    @else if $val == medium {
+      border: 3px solid black;
+    }
+    @else if $val == heavy {
+      border: 6px solid black;
+    }
+    @else {
+      border: none;
+    }
+  }
+
+// Loops
+// Note: "through" includes end, "to" excludes end
+@for $i from 1 through 6 {
+	#target#{$i} {
+		font-size: 3px * $i;
+	}
+}
+
+$x: 1;
+@while $x < 7 {
+	#target#{$x} {
+		font-size: 3px * $x;
+	}
+	$x: $x + 1;
+}
+
+// @each $color in blue, red, green {}
+
+$colors: (target1: blue, target2: green, target3: red, target4: yellow, target5: orange, target6: purple); // map
+@each $key, $color in $colors {
+	##{$key} {
+		color: $color;
+	}
+}
+
+// Nesting
+.well {
+	background-color: $primary-color;
+	button {
+		color: $primary-color-2;
+		@include box-shadow(0, 0, 4px, #fff); // use mixin
+		@include border-stroke(light);
+	}
+}
+
+// Extend (inheritance)
+.well-black {
+	@extend .well;
+	background-color: colours.$secondary-color;
+}

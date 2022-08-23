@@ -1,0 +1,673 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Ar",
+				"ArrayList"
+			],
+			[
+				"Arr",
+				"ArrayList"
+			],
+			[
+				"Arrayli",
+				"ArrayList"
+			],
+			[
+				"ArrayL",
+				"ARRAYLIST"
+			],
+			[
+				"equals",
+				"equalsIgnoreCase()"
+			],
+			[
+				"random",
+				"randomInteger"
+			],
+			[
+				"sq",
+				"squareRoot"
+			],
+			[
+				"next",
+				"nextByte()"
+			],
+			[
+				"Number",
+				"NumberFormat"
+			],
+			[
+				"roundto",
+				"roundToInt"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"to",
+				"toString()"
+			],
+			[
+				"rep",
+				"replace()"
+			],
+			[
+				"Boo",
+				"BoolParamType"
+			],
+			[
+				"server_",
+				"server_default"
+			],
+			[
+				"drop_co",
+				"drop_column"
+			],
+			[
+				"drop",
+				"drop_constraint"
+			],
+			[
+				"referent_",
+				"referent_table"
+			],
+			[
+				"dro",
+				"drop_column"
+			],
+			[
+				"add_co",
+				"add_column"
+			],
+			[
+				"Base",
+				"BaseModel\tmodule"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"vote",
+				"vote_query\tstatement"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"stat",
+				"status_code"
+			],
+			[
+				"voet",
+				"vote_query"
+			],
+			[
+				"Ba",
+				"BaseModel\tmodule"
+			],
+			[
+				"creat",
+				"created_at"
+			],
+			[
+				"curren",
+				"current_user"
+			],
+			[
+				"alg",
+				"algorithm"
+			],
+			[
+				"own",
+				"owner_id"
+			],
+			[
+				"token",
+				"token_data\tstatement"
+			],
+			[
+				"get_",
+				"get_current_user"
+			],
+			[
+				"cre",
+				"credentials_exception\tstatement"
+			],
+			[
+				"verif",
+				"verify_access_token\tfunction"
+			],
+			[
+				"Oauth2",
+				"OAuth2PasswordBearer\tmodule"
+			],
+			[
+				"cred",
+				"credentials_exception\tparam"
+			],
+			[
+				"Oaut",
+				"OAuth2PasswordRequestForm\tmodule"
+			],
+			[
+				"a",
+				"access_token"
+			],
+			[
+				"encode",
+				"encoded_jwt"
+			],
+			[
+				"algo",
+				"ALGORITHM"
+			],
+			[
+				"has",
+				"hashed_password"
+			],
+			[
+				"C",
+				"CryptContext"
+			],
+			[
+				"new",
+				"new_user"
+			],
+			[
+				"__",
+				"__tablename__"
+			],
+			[
+				"sql",
+				"sqlalchemy"
+			],
+			[
+				"get",
+				"get_db"
+			],
+			[
+				"declar",
+				"declarative_base"
+			],
+			[
+				"sta",
+				"status_code"
+			],
+			[
+				"statu",
+				"status"
+			],
+			[
+				"HTTP",
+				"HTTPException"
+			],
+			[
+				"pos",
+				"post_dict"
+			],
+			[
+				"close",
+				"close_button"
+			],
+			[
+				"record",
+				"record_id"
+			],
+			[
+				"state",
+				"state_editor"
+			],
+			[
+				"add",
+				"address_editor"
+			],
+			[
+				"zip",
+				"zipcode_editor"
+			],
+			[
+				"cit",
+				"city_editor"
+			],
+			[
+				"last",
+				"last_name_editor"
+			],
+			[
+				"firs",
+				"first_name_editor"
+			],
+			[
+				"recor",
+				"record_id"
+			],
+			[
+				"delet",
+				"delete"
+			],
+			[
+				"de",
+				"delete_box"
+			],
+			[
+				"dele",
+				"delete_box_label"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"ad",
+				"addresses"
+			],
+			[
+				"addr",
+				"addresses"
+			],
+			[
+				"sub",
+				"submit_button"
+			],
+			[
+				"conn",
+				"connect"
+			],
+			[
+				"var",
+				"var_3"
+			],
+			[
+				"try",
+				"try\tTry/Except/Else/Finally"
+			],
+			[
+				"pack",
+				"pack_forget"
+			],
+			[
+				"img",
+				"img_1_label"
+			],
+			[
+				"img_",
+				"img_1_label"
+			],
+			[
+				"button",
+				"button_1"
+			],
+			[
+				"file",
+				"filedialog"
+			],
+			[
+				"top",
+				"top"
+			],
+			[
+				"Image",
+				"images"
+			],
+			[
+				"colu",
+				"columnspan"
+			],
+			[
+				"for",
+				"forward"
+			],
+			[
+				"co",
+				"command"
+			],
+			[
+				"pad",
+				"pady"
+			],
+			[
+				"label",
+				"label2"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"terminus tab",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"comman",
+				"Command Prompt (panel)"
+			],
+			[
+				"build",
+				"Build With: RunJava"
+			],
+			[
+				"TERMINUS TAB",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"TERMINUS",
+				"Terminus: Close All"
+			],
+			[
+				"TERMINUS TOGG",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"terminus",
+				"Terminus: Close"
+			],
+			[
+				"termi",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"command",
+				"Command Prompt (panel)"
+			],
+			[
+				"",
+				"Command Prompt (panel)"
+			],
+			[
+				"term",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"side",
+				"Preferences: SideBarTools Settings"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sidebartoo",
+				"Preferences: SideBarTools Settings"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package control ins",
+				"Package Control: Install Package"
+			],
+			[
+				"virtual",
+				"Virtualenv: New (venv)"
+			],
+			[
+				"virtu",
+				"Virtualenv: Activate"
+			],
+			[
+				"instla",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"print(\"hello\")",
+			"print \"hello\"",
+			"print \"hello world",
+			"node -v"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Janice/Desktop/Coding/Java"
+	],
+	"file_history":
+	[
+		"/C/Users/Janice/Desktop/Coding/Java/Java for Beginners/src/com/beginner/Main.java",
+		"/C/Users/Janice/Desktop/Coding/Java/Java for Beginners/java.sublime-project",
+		"/C/Users/Janice/Desktop/Coding/Java/Java for Beginners/commands.txt",
+		"/c/users/janice/desktop/coding/java/java for beginners/src/com/beginnermain.java",
+		"/C/Users/Janice/Desktop/Coding/Java/Java for Beginners/src/Main.java",
+		"/C/Users/Janice/AppData/Roaming/Sublime Text 3/Packages/User/RunJava.sublime-build",
+		"/C/Users/Janice/AppData/Roaming/Sublime Text 3/Packages/User/Javatar.sublime-settings",
+		"/C/Program Files/Sublime Text/Packages/Java.sublime-package",
+		"/C/Users/Janice/Desktop/Main.java",
+		"/C/Users/Janice/AppData/Roaming/Sublime Text 3/Packages/User/Java.sublime-build",
+		"/C/Users/Janice/Desktop/Coding/Code/Python/Notes/Parwiz Forogh/Django/commands.txt",
+		"/C/Users/Janice/Desktop/Coding/Code/Python/Notes/Parwiz Forogh/Django/django.sublime-project",
+		"/C/Users/Janice/Desktop/Coding/Code/Python/Notes/Parwiz Forogh/Django/APIProject/manage.py",
+		"/C/Users/Janice/Desktop/Coding/Notes/JavaScript/test.js",
+		"/C/Users/Janice/.jupyter/jupyter_notebook_config.py"
+	],
+	"find":
+	{
+		"height": 27.3333333333
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"upper",
+			"name",
+			"random",
+			"scan",
+			"age",
+			"math.class",
+			"number",
+			"price",
+			"name",
+			"\\"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"scanner",
+			"/"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.3333333333
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Terminus":
+	{
+		"height": 132.0
+	},
+	"output.Terminus 3":
+	{
+		"height": 132.0
+	},
+	"output.Terminus 4":
+	{
+		"height": 132.0
+	},
+	"output.Terminus 6":
+	{
+		"height": 132.0
+	},
+	"output.exec":
+	{
+		"height": 251.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/RunJava.sublime-build",
+	"project": "java.sublime-project",
+	"replace":
+	{
+		"height": 50.6666666667
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

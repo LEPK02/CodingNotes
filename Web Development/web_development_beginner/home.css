@@ -1,0 +1,117 @@
+/*@import "fonts.css";*/
+
+html {
+	background: grey;
+	font-family: 'Roboto', sans-serif;
+}
+
+div {
+	background: darkred;
+	color: white;
+}
+
+h1 {
+	font-size: xx-large;
+	font-weight: bold;
+	line-height: 200%;	
+}
+
+h2 {
+	font-size: 150%;
+}
+
+a:hover {
+	background: black;
+	color: white;
+}
+
+a:active, a:visited {
+	color: goldenrod;
+	background: darkred;
+}
+
+#bayernLogoLink {
+	position: fixed;
+	bottom: 1.5%;
+	right: 1.5%;
+	z-index: 1;
+	background: transparent;
+}
+
+#bayernLogoTooltip {
+	/*visibility: hidden;*/
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+#bayernLogo {
+	background: transparent;
+}
+
+#introText {
+	position: relative;
+	left: 50px;
+	width: calc(90% - 50px);
+	height: 100px;
+	overflow: scroll;
+
+	font-family: "verdana", "sans-serif";
+	color: white;
+	background: darkred;
+	border: 3px ridge white;
+}
+
+#introFounding {
+	color: white;
+	background: black;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: auto;
+	width: 50%;
+
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 300px;
+}
+
+#clubNameIntro {
+	color:  white;
+	background: royalblue;
+	margin: auto 10px;
+	padding:  auto 10px;
+}
+
+
+#trophies ol li {
+	color: gold;
+}
+
+
+#trophies ul li {
+	color: silver;
+}
+
+.expand {
+	transition: 1s ease-in-out;
+}
+
+.expand:hover {
+	transform: scale(1.2);
+}
+
+.domesticCompetition {
+	color: black;
+	background: palevioletred;
+}
+
+span.domesticCompetition {
+	color:  white;
+	background: darkred;
+}
+
+
+label[for] {
+	color: white;
+}

@@ -1,0 +1,85 @@
+#target1 {
+  font-size: 3px;
+}
+
+#target2 {
+  font-size: 6px;
+}
+
+#target3 {
+  font-size: 9px;
+}
+
+#target4 {
+  font-size: 12px;
+}
+
+#target5 {
+  font-size: 15px;
+}
+
+#target6 {
+  font-size: 18px;
+}
+
+#target1 {
+  font-size: 3px;
+}
+
+#target2 {
+  font-size: 6px;
+}
+
+#target3 {
+  font-size: 9px;
+}
+
+#target4 {
+  font-size: 12px;
+}
+
+#target5 {
+  font-size: 15px;
+}
+
+#target6 {
+  font-size: 18px;
+}
+
+#target1 {
+  color: blue;
+}
+
+#target2 {
+  color: green;
+}
+
+#target3 {
+  color: red;
+}
+
+#target4 {
+  color: yellow;
+}
+
+#target5 {
+  color: orange;
+}
+
+#target6 {
+  color: purple;
+}
+
+.well, .well-black {
+  background-color: yellow;
+}
+.well button, .well-black button {
+  color: blue;
+  -ms-box-shadow: 0 0 4px #fff;
+  box-shadow: 0 0 4px #fff;
+  border: 1px solid black;
+}
+
+.well-black {
+  background-color: green;
+}/*# sourceMappingURL=SASS.css.map */

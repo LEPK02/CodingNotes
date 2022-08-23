@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Bayern</title>
+        <link rel="stylesheet" type="text/css" href="home.css">
+        <style type="text/css">
+            table {
+                border: 1px solid black;
+            }
+
+            td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+	    <div id="bayernLogoLink" class="w3Container">
+            <a href="https://fcbayern.com/en">
+                <img id="bayernLogo" class="expand" src="graphics/BayernLogo.png" alt="Bayern logo" height=40 width=40>
+            </a>
+            <span id="bayernLogoTooltip">Bayern Official Website</span>
+        </div>
+        <h1 id="introHeader">Introduction</h1>
+        <div id="introText">
+            <p id="clubNameIntro">Fußball-Club Bayern München e. V., also known as <strong>FC Bayern</strong> or <big>Bayern Munich</big>, is a German professional sports club based in Munich, Bavaria.<br>Bayern is the most successful club in German football history, having won a record <span class="domesticCompetition">31 national titles</span>, including nine consecutively since 2013, and 20 national cups, along with numerous European honours.</p>
+            <p id="currentStatusIntro">By winning the 2020 FIFA Club World Cup, Bayern Munich became only the second club to win the sextuple. Bayern Munich are one of five clubs to have won all three of UEFA's main club competitions, the only German club to achieve that. As of January 2022, Bayern Munich are ranked first in UEFA club rankings. The club has traditional local rivalries with 1860 Munich and 1. FC Nürnberg, as well as with Borussia Dortmund since the mid-1990s.</p>
+        </div>
+
+        <div id="introFounding">
+            <p>FC Bayern Munich was founded in 1900 by 11 football players, led by Franz John.</p>
+        </div>
+
+        <div id="trophies">
+            <h2>Competitions Won</h2>
+            <h3>Domestic Honours</h3>
+                <ol>
+                    <li class="domesticCompetition"><a href="https://www.bundesliga.com/en/bundesliga" target="_blank">German Champions/Bundesliga</a></li>
+                    <li class="domesticCompetition">DFB-Pokal</li>
+                    <li class="domesticCompetition">DFB/DFL-Supercup</li>
+                    <li class="domesticCompetition">DFL-Ligapokal</li>
+                </ol>
+
+            <h3>European Honours</h3>
+            <ul>
+                <li class="europeanCompetition">UEFA Champions League / European Cup</li>
+                <li class="europeanCompetition">UEFA Europa League / UEFA Cup</li>
+                <li class="europeanCompetition">UEFA/European Cup Winners' Cup</li>
+                <li class="europeanCompetition">UEFA/European Super Cup</li>
+            </ul>
+        </div>
+
+        <table>
+            <caption>All-Time Top Scorers</caption>
+            <thead>
+                <th>Name</th>
+                <th>Games</th>
+                <th>Goals</th>
+            </thead>
+            <tr>
+                <td>
+                    Gerd Müller
+                    <img src="graphics\germanyFlagRound.png" alt="Germany Flag Round" width="16" height="16">
+                </td>
+                <td>523</td>
+                <td>580</td>
+            </tr>
+            <tr>
+                <td>
+                    Robert Lewandowski
+                    <img src="graphics\polandFlagRound.png" alt="Germany Flag Round" width="16" height="16">
+                </td>
+                <td>305</td>
+                <td>337</td>
+            </tr>
+            <tr>
+                <td>
+                Thomas Müller
+                <img src="graphics\germanyFlagRound.png" alt="Germany Flag Round" width="16" height="16">
+                </td>
+                <td>218</td>
+                <td>590</td>
+            </tr>
+        </table>
+
+        <hr width="70%">
+
+        <div id="favouritePlayerForm">
+            <h4>Vote for Your Favourite Player</h4>
+            <!-- To prevent HTML inject attacks, use htmlentities() in value field to convert characters to their HTML equivalent (e.g. " to &quot) -->
+            <form action="" method="">
+                <label for="userName">Your name:</label>
+                <input type="text" name="playerName" value="<?= htmlentities($favouritePlayer) ?>" placeholder="Robert Lewandowski" required>
+                <br>
+
+                <label for="playerName">Your favourite player:</label>
+                <input type="text" name="playerName" placeholder="Neuer" required>
+                <br>
+
+                <fieldset>
+                    <legend>Your gender:</legend>
+                    <input type="radio" name="userMale" value="Male">
+                    <label for="userMale">&emsp;Male</label>
+                    <br>
+                    <input type="radio" name="userFemale" value="Female">
+                    <label for="userFemale">&emsp;Female</label>
+                    <br>
+                    <input type="radio" name="userNonbinary" value="Non-binary">
+                    <label for="userNonbinary">&emsp;Non-binary</label>
+                    <br>
+                </fieldset>
+
+                <label for="email">Your email address:</label>
+                <input type="email" name="email" placeholder="service@fcbayern.com">
+                <br>
+
+                <label for="birthdayMonth">Your birthday month:</label>
+                <select name="Month" id="birthdayMonth">
+                    <option value="jan">January</option>
+                    <option value="feb">February</option>
+                    <option value="mar">March</option>
+                    <option value="apr">April</option>
+                    <option value="may">May</option>
+                    <option value="jun">June</option>
+                    <option value="jul">July</option>
+                    <option value="aug">August</option>
+                    <option value="sep">September</option>
+                    <option value="oct">October</option>
+                    <option value="nov">November</option>
+                    <option value="dec">December</option>
+                </select>
+                <br>
+
+                <label for="password">Your password:</label>
+                <input type="password" name="password">
+                <br>
+
+                <label for="agree">I agree to all the terms and conditions above.</label>
+                <input type="checkbox" name="agree">
+                <br>
+
+                <button type="submit">Submit</button>
+                <br>
+            </form>
+        </div>
+
+        <h4></h4>
+        <h5></h5>
+        <h6></h6>
+    </body>
+</html>

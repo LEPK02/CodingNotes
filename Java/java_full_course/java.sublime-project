@@ -1,0 +1,41 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+		}
+	],
+	"javatar":
+	{
+		"source_folder": "C:\\Users\\Janice\\Desktop\\Coding\\Java\\java_full_course\\New Window\\src",
+		/*"jdk_version":
+		{
+			"use": "JDK17.0.2",
+		},*/
+		"source_folders":
+		[
+			"C:\\Coding Notes\\Java\\Java Full Course\\src",
+		],
+		"jdk_version":
+		{
+			"use": "JDK17.0.2",
+		},
+	},
+	"settings":
+	{
+	    "java_import_path":
+	    [
+	        "C:\\Program Files\\Java\\jdk-17.0.2\\lib\\src.zip",
+	        "C:\\Program Files\\Java\\jdk-17.0.2\\lib\\jrt-fs.jar"
+		],
+	},
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"c:/Python39/python.exe\" -u \"$file\"",
+		}
+	],
+}

@@ -1,0 +1,3 @@
+Running Main.java
+1. cd C:\Users\Janice\Desktop\Coding\Java\Java for Beginners\src\com\beginner
+2. java Main.java
